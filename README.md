@@ -105,6 +105,7 @@ There are 5 processes:
 To see these commands [click here](#legend_of_buttons).
 
 * <b>Inspection Console</b>: receives from motor x and motor z the hoist position and show it on the specific interface, it also contains the `stop` button and the `reset` button;
+To see these buttons [click here](#legend_of_buttons).
 
 * <b>Motor X</b>: receives commands, simulates the motion along x axis and sends the real time position to the World process.
 
