@@ -1,5 +1,5 @@
 # Advanced and Robot Programming - Assignment 1
-## Author: Rocca Giovanni, Moriconi Michele
+## Authors: Rocca Giovanni, Moriconi Michele
 
 <br>
 
