@@ -101,10 +101,10 @@ World log file:
 
 There are 5 processes:
 
-* <b>Command Console</b>: reads 6 commands typed in the shell window from the user; 
+* <b>Command Console</b>: reads the commands clicked in the window from the user; 
 To see these commands [click here](#legend_of_buttons).
 
-* <b>Inspection Console</b>: receives from motor x and motor z the hoist position and show it on the specific interface;
+* <b>Inspection Console</b>: receives from motor x and motor z the hoist position and show it on the specific interface, it also contains the `stop` button and the `reset` button;
 
 * <b>Motor X</b>: receives commands, simulates the motion along x axis and sends the real time position to the World process.
 
