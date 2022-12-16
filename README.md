@@ -62,8 +62,8 @@ This repository contains:
 - The `src` folder, which contains the source code for the Command console, Inspection console, Motor_x, Motor_z, World and Master processes.
 - The `include` folder contains all the data structures and methods used within the ncurses framework to build the two GUIs. Unless you want to expand the graphical capabilities of the UIs (which requires understanding how ncurses works), you can ignore the content of this folder, as it already provides you with all the necessary functionalities.
 - The `bin` folder is where the executable files are expected to be after compilation.
-- The 'logFiles' folder contains the log files of all processes.
-- The 'compiler.sh' and 'run.sh' files.
+- The `logFiles` folder contains the log files of all processes.
+- The `compiler.sh` and `run.sh` files.
 
 3.Compile the source files:
 
@@ -112,6 +112,6 @@ To see these commands [click here](#legend_of_buttons).
 
 * <b>World</b>: add the errors to the positions received by Motor X and Motor Z and sends this recalculated position to the Inspection Console.
 
-* <b>Master</b>: his main function is to start all the processes and it contains a 'Watchdog' function that checks all the processes periodically and kills all of them in
+* <b>Master</b>: his main function is to start all the processes and it contains a `Watchdog` function that checks all the processes periodically and kills all of them in
     case they are all idle.
 
