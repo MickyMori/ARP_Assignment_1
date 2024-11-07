@@ -27,9 +27,7 @@ The goal of this assignment is to test and deploy an interactive simulator of ho
 In the octagonal box there are two motors mx and mz, which displace the hoist along the two
 respective axes. (Motions along axes have their bounds, from 0 to max_x along the x axis and from 0 to max_z along the z axis).<br>
 From the user side there are two consoles (konsole windows), which contain the GUIs, one of these is the Inspection Console, that has a red button STOP (which purpose is to immediately stop all the movements along x and z axes) and an orange button RESET (which purpose is to reset all, dragging the hoist to the initial position), while the other one is the Command Console which contains the keys, clickable by the user, with different aims. 
-This two consoles allow to simulate a real system. <br>
-
-Our simulator is composed by 5 processes:  
+This two consoles allow to simulate a real system. <br>  
 
 <a name="legend_of_buttons"></a>
 ### Legend of Buttons
